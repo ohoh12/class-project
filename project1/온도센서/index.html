@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="image">
+<body>
+    <div class="image">
+    <div class="buttons">
+        <button type="button"id="timedht">현재 온습도</button>
+        <button type="button"id="record">지난 온습도</button>
+    </div>
+    <table border="1">
+        <thead>
+            <tr class="color">
+                <th>No.</th>
+                <th>날짜</th>
+                <th>시간</th>
+                <th>온도</th>   
+                <th>습도</th>
+            </tr>
+            <tr class="white">
+                <th>공백</th>
+                <th>공백</th>
+                <th>공백</th>
+                <th>공백</th>
+                <th>공백</th>
+            </tr>
+        </thead>
+    </table>
+    <script src="{{url_for('static', filename='index.js')}}"></script>
+</body>
+</div>
+</html>
